@@ -50,7 +50,39 @@ const Footer = () => {
                   to="/termos"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Termos de Serviço
+                  Termos e Condições
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/aviso-legal"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Aviso Legal
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/politica-reembolso"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Política de Reembolso
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/pagamento-online"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Pagamento Online
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contato"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Contato
                 </Link>
               </li>
             </ul>
@@ -58,9 +90,14 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-muted-foreground text-sm">
-            © 2025 Grupo Arruda. Todos os direitos reservados.
-          </p>
+          <div className="text-center md:text-left">
+            <p className="text-muted-foreground text-sm">
+              © 2025 Grupo Arruda. Todos os direitos reservados.
+            </p>
+            <p className="text-muted-foreground text-xs mt-1">
+              CNPJ: 58.627.260/0001-71
+            </p>
+          </div>
           
           <div className="flex gap-4">
             <a
