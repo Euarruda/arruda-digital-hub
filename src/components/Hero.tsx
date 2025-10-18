@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -13,7 +14,10 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary-glow to-blue-400 bg-clip-text text-transparent">
+          <div className="mb-8 flex justify-center">
+            <img src={logo} alt="Grupo Arruda" className="h-32 md:h-40 w-auto" />
+          </div>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground">
             Grupo Arruda
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">

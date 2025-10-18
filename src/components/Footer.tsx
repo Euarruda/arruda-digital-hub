@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Linkedin, Instagram, Facebook } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -7,6 +8,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
           <div>
+            <img src={logo} alt="Grupo Arruda" className="h-16 w-auto mb-4" />
             <h3 className="text-2xl font-bold mb-4">Grupo Arruda</h3>
             <p className="text-muted-foreground">
               Ecossistema de Inovação Digital.
